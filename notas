@@ -1,0 +1,13 @@
+Sempre use as tags semanticas
+apenas demostrei como deves usar o css separado para teres mais controles
+sempre use as classes nao id usamos os id quando estamos especificamente com js nao sendo um criteiro mas fica muito facil usar classes
+
+nao ha necessidade de usa o a propriedade de justify e align nos filhos caso tenha alguma dificuldades use tem o justfy self e assim como align self
+
+nao deve usar valores negativos esses muitas das vezes quebram layout a nao ser que vais usar position
+ai sim podes usar left e right top e bottom e nao margin caso queira centrar algum conteudo podes usar margin auto
+
+
+
+entao analise o codigo que eu fiz e tenta entender caso tenhas duvidas agende um call pra explicacar detalhado
+para ajustar caso tenha tempo mande de novo

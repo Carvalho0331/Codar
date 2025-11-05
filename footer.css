@@ -1,0 +1,19 @@
+footer{
+    background: black ;
+    
+}
+footer section{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#title{
+    color: white;
+}
+
+#icon{
+    display: flex;
+    gap: 20px;
+}

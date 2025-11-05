@@ -1,0 +1,40 @@
+.caixa{
+    background: #9c9595;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 100%;
+}
+
+.caixa::before{
+ content: "";
+    width: 270px;
+    height: 100px;
+    background: red;
+
+display: block;
+border-radius: 100%;
+position: relative;
+top: -20px;
+}
+
+.caixa-son{
+    display: grid;
+    gap: 10px;
+}
+
+.grid-caixa{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:900px) {
+.caixa::before{
+
+    width: 100%;
+ 
+}
+
+}

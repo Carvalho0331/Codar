@@ -1,0 +1,25 @@
+
+
+.section-call{
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 100px; */
+    justify-items: end;
+    margin: auto;
+    /* padding: 0px 150px; */
+} 
+
+img{
+   display: block;
+   max-width: 100%;
+}
+
+@media (max-width:900px) {
+    .section-call{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 20px;
+    }
+}

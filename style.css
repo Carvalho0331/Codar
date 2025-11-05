@@ -1,0 +1,294 @@
+
+@import url(./reset.css);
+@import url(./headers.css);
+@import url(./sectionCall.css);
+@import url(./bullets.css);
+@import url(./caixa.css);
+@import url(./footer.css);
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body{
+    display: block;  nao e necessario colocar display block no body
+    background: white;
+    margin: 0;
+    padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#meno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+} */
+/* .cdr{
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 20px;
+    color: RED;
+    
+
+}
+.men{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+    
+}
+
+.lg{display: flex;
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#vcal{
+    width: 250px;
+    height: 250px;
+}
+
+#corpo1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+
+}  
+#txt{
+    margin-top: -60px;
+}
+
+
+.t1{
+    color: red;
+    
+
+}
+
+#bt{
+    color: white;
+    background: red;
+    border-radius: 8px;
+    border: none;
+    width: 160px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.mark{
+    width: 40px;
+    height: 40px;
+}
+
+#lista{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 30px 250px;
+    text-align: center;
+    align-items: center;
+}
+
+#corpo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+#pgr{
+    width: 260px;
+    height: 300px;
+}
+#cont{
+    display: flex;
+    width: 400px;
+
+}
+#btcal{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: red;
+    color: white;
+    cursor: pointer;
+
+}
+
+input{
+     width: 150px;
+    height: 28px;
+    border: none;
+    border-radius: 8px;
+    background: silver;
+
+}
+
+placeholder{
+    margin: 10px;
+}
+#inputcl{
+    display: flex;
+    gap: 5px;
+
+}
+.rodo{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+    margin-right: -75px;
+    margin-top: 20px;
+    
+
+}
+#corpo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 150px;
+   
+    
+}
+
+.nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+    width: 80%;
+    margin: auto;
+
+}
+
+#b1, #b2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    background: silver;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: black ;
+    color: white;
+
+}
+
+#title{
+    color: white;
+}
+
+#icon{
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:767px) {
+    #corpo1{
+        display: block;
+    
+    }
+    #txt{
+        margin-top: 0px;
+    }
+    #corpo2{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    
+    #corpo3{
+        display: block;
+    }
+    #principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    width: 95%;
+    margin: 0 auto;
+    }
+    #inputcl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center; 
+    width: 300px;
+    gap: 20px;
+    margin: 0 auto;
+
+    }
+
+    input{
+        width: 250px;
+        height: 40px;
+    }
+
+   
+    
+
+    #btcal{
+        width: 250px;
+        height: 40px;
+    }
+
+    footer{
+        display: block;
+        
+    }
+
+    #meno{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    
+}
+
+.men{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.lg{
+    display: none;
+}
+
+
+} */

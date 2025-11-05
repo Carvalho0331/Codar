@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1120px; */
+
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.menu ul{
+    display: flex;
+    gap: 10px;
+}
+
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    padding: 10px;
+text-decoration: none;
+font-size: 20px;
+}
+
+button{
+    padding: 5px 20px ;
+    border-radius: 4px;
+    background: red;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media (max-width:900px) {
+.header{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.login{
+    display: none;
+}
+}
